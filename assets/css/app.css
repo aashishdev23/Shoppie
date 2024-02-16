@@ -2,10 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -18,12 +14,12 @@
   /* background color*/
   --bg-white: hsla(0, 0%, 100%, 1);
   --bg-gainsboro: hsla(154, 10%, 86%, 1);
-  --bg-wild-blue-yonder: hsla(227, 39%, 75%, 1);
-  --bg-orange-crayola: hsla(18, 97%, 62%, 1);
+  --bg-wild-blue-yonder: #acb5bd;
+  --bg-orange-crayola: #d9ec4a;
   --bg-roman-silver-alpha-30: hsla(210, 9%, 57%, 0.3);
 
   /* text color */
-  --text-orange-crayola: hsla(18, 97%, 62%, 1);
+  --text-orange-crayola: #212529;
   --text-blue-crayola: hsla(216, 98%, 52%, 1);
   --text-eerie-black: hsla(210, 11%, 15%, 1);
   --text-eerie-black-2: hsla(0, 0%, 7%, 1);
@@ -871,4 +867,9 @@ address.footer.text {
   .footer-bottom-link {
     font-size: 1.6rem;
   }
+}
+
+.logo {
+  font-family: var(--fontFamily-clashDisplay);
+  font-size: x-large;
 }
